@@ -1,0 +1,28 @@
+name: cdk2-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+
+  - pandas
+  - numpy
+  - scipy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - xgboost
+  - jupyterlab
+  - ipykernel
+
+  - rdkit
+  - datamol
+  - vina
+  - meeko
+  - openbabel
+  - pip
+  - pip:
+      - chembl-webresource-client
+      - bioservices
+      - pdb2pqr
+      - prolif
