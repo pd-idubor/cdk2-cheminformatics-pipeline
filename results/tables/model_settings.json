@@ -1,0 +1,6 @@
+{
+  "AD_THRESHOLD": 0.4,
+  "HIGH_CONFIDENCE_THRESHOLD": 0.6,
+  "morgan_radius": 2,
+  "morgan_bits": 2048
+}
